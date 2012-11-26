@@ -15,3 +15,5 @@ gem "jquery-rails"
 
 # To use debugger
 # gem 'debugger'
+
+gem 'active_model_serializers', github: 'rails-api/active_model_serializers'
