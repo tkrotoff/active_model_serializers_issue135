@@ -1,0 +1,4 @@
+require "active_model_serializers_issue135/engine"
+
+module ActiveModelSerializersIssue135
+end
