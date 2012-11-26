@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @my_model.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @my_model.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_my_model_path(@my_model) %> |
+<%= link_to 'Back', my_models_path %>
